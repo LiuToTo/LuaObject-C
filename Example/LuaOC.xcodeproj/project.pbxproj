@@ -64,7 +64,7 @@
 		83A6437556FA5962B2BD19AE /* Pods-LuaOC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuaOC_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuaOC_Tests/Pods-LuaOC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD858F65E17AD63EE30004FE /* libPods-LuaOC_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LuaOC_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6710F48CFFB7E3EA0B00479 /* LuaOC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LuaOC.podspec; path = ../LuaOC.podspec; sourceTree = "<group>"; };
+		B6710F48CFFB7E3EA0B00479 /* LuaOC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LuaOC.podspec; path = ../LuaOC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D63D5E7AF22D1ECCC7C8B99E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D90404BC4F9BB3052CC17763 /* Pods-LuaOC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuaOC_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuaOC_Example/Pods-LuaOC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
