@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00999EBBFE2DD9E868F86EBCE0589281 /* LOGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9BCC0E21BBC3C214B09358127E6A7B /* LOGlobals.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0A20DA0A10B67DA241140995BECF691D /* LOLuaString.m in Sources */ = {isa = PBXBuildFile; fileRef = CECD080D6CDF2DC1C288D465D78C239F /* LOLuaString.m */; };
+		0D8297B8B60C28CC83843E6C126CD7FF /* LOLuaInteger.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D32A9064BAC46B3C046FF2710EF9D67 /* LOLuaInteger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0E1E204B163DC1C1E8EBA056315DE3D8 /* LOLuaClosure.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC52E0080DD5547FFDC8AB73C14B8BB /* LOLuaClosure.m */; };
+		20A37F51A5CCB19629A26ECA847D90BA /* LOLuaTable.h in Headers */ = {isa = PBXBuildFile; fileRef = CC32773A3DD2F29351694B44AD45D59C /* LOLuaTable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		27C1B96FDCA8A426F36F14FE362757D7 /* LOLuaString.h in Headers */ = {isa = PBXBuildFile; fileRef = B27B1B7924B67E5DF8AD3FB592939860 /* LOLuaString.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		37CCC5AB0C2CF5A4CC8A26F9E76FDD12 /* LOVarargs.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB9104C6325FF0F7923AE01BDF2F594 /* LOVarargs.m */; };
+		40239CF303F76B11A3A82059F53E1B44 /* LOGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = 687E58DDC2A2335E63735FC71CA2F881 /* LOGlobals.m */; };
+		40CDC53652E99A71E083812E90CC5CFC /* LOLuaValue.h in Headers */ = {isa = PBXBuildFile; fileRef = C9C876A81F81F9E96018A3B2BD8F10BA /* LOLuaValue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4E598B8C52C6A993BEF1A4E7F8A246AC /* Pods-LuaOC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB52FE990F5D0E427C15BCA402CFD5 /* Pods-LuaOC_Example-dummy.m */; };
+		50AA9B949E990229D62038368D70ADBF /* LOLuaNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1438D5A142D9910099CE1953D9A0C7 /* LOLuaNil.m */; };
+		5C9F637F34AAF0252F310ED263BD88F9 /* Pods-LuaOC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7B930DA8B912CD8C6C14823F4CF2FB /* Pods-LuaOC_Tests-dummy.m */; };
+		6376BB05AEE9AB9B900E20B3CD5CDF26 /* LuaOC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5B9E962B60BBA523F7935A21867926 /* LuaOC-dummy.m */; };
+		65DBDFE377AA7BC5A674CD1ABA4A256D /* LOLuaTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 33669795E6F1C8FA816BF6C75443B41F /* LOLuaTable.m */; };
+		678A9FBA5A8EAD2008060FA731AE8D7C /* LOLuaInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = F70594EF255FE61C3FE743C00FCDE51C /* LOLuaInteger.m */; };
+		6BF88CE9A53DD576762CCC7957056C7A /* LOLuaError.m in Sources */ = {isa = PBXBuildFile; fileRef = 042AFB70C00E7D5866713705E3A5C950 /* LOLuaError.m */; };
+		70D07CF60AE3850843D47F22D72A85C5 /* LOLuaThread.m in Sources */ = {isa = PBXBuildFile; fileRef = A054EE5E24BC8A584F1FD596E2B99E9D /* LOLuaThread.m */; };
+		7F04ADD4717723CCF6B628288E5DCF02 /* LOLuaClosure.h in Headers */ = {isa = PBXBuildFile; fileRef = A19BA4BFDE0F69E9F0BCF0A02CA6134F /* LOLuaClosure.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A0DA7B174F3968505BFD8BC892592378 /* LOLuaNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D0166B7C107741BFAF61812823D6EE /* LOLuaNumber.m */; };
+		AA0ED565D50063CA1B01552C39FE7D72 /* LOVarargs.h in Headers */ = {isa = PBXBuildFile; fileRef = 25FD6A1F14035241903EF6A106C38210 /* LOVarargs.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB152A85FDA36AFE1A6EB56C8C34823A /* LOLuaValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 940E012BF1D2C8B76B66E6866995C296 /* LOLuaValue.m */; };
+		B20713437B7958145755D1FA6EA1E4F6 /* LOLuaNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = AC91ED82911D6F875600BA521E9252B7 /* LOLuaNumber.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B77D7419183B7E90274E30F4F260CF68 /* LOLuaFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC5CC837E060C721FDBF61086AD18AB /* LOLuaFunction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B98240DEBF5BB23EE70D7703D7575DF4 /* LOLuaError.h in Headers */ = {isa = PBXBuildFile; fileRef = CDDA7CA6FB2B3186BB00B14A5B656404 /* LOLuaError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CE3C16255FA6342B15DA79912AC7D3F5 /* LOLuaNil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9018386D31C951B72E0A2FD3686F998A /* LOLuaNil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D2CFAA4B5BC6BA4248DFFC65793010A1 /* LOLuaThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E20EE30525F93D400B484E3768C6489 /* LOLuaThread.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D7BA8753ACF843F92C2C1790E5A779F6 /* LOLuaFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EB75E43D2B6B0C00467F2ED7D5C754 /* LOLuaFunction.m */; };
+		E40403FE4437086877CBC42C0317561F /* LOSubVarargs.h in Headers */ = {isa = PBXBuildFile; fileRef = D16E3CFA604555A968449A73A38FCF2E /* LOSubVarargs.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E528638092F76A252ADB1DE6E047F948 /* LOSubVarargs.m in Sources */ = {isa = PBXBuildFile; fileRef = EC42F599569E3878B2FA2D265FA74945 /* LOSubVarargs.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B61E4C9A4331C7E8BE99F9534E9B82BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88867127CE37D5EC125F7D4B3EA9A5CB;
+			remoteInfo = LuaOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042AFB70C00E7D5866713705E3A5C950 /* LOLuaError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOLuaError.m; path = LuaOC/Classes/LOLuaError.m; sourceTree = "<group>"; };
+		210BA566F1C22E82161A6332AD86627C /* libLuaOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLuaOC.a; path = libLuaOC.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D0EC56D73F9B36E7D1B30EA04A8DCA /* Pods-LuaOC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuaOC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		25FD6A1F14035241903EF6A106C38210 /* LOVarargs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOVarargs.h; path = LuaOC/Classes/LOVarargs.h; sourceTree = "<group>"; };
+		28A8E60C01E418F7AC3BA03FF417EE9A /* Pods-LuaOC_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuaOC_Example-resources.sh"; sourceTree = "<group>"; };
+		33669795E6F1C8FA816BF6C75443B41F /* LOLuaTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOLuaTable.m; path = LuaOC/Classes/LOLuaTable.m; sourceTree = "<group>"; };
+		3A58AC05DE66891993AAD9CB2C225B45 /* Pods-LuaOC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuaOC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A9BCC0E21BBC3C214B09358127E6A7B /* LOGlobals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOGlobals.h; path = LuaOC/Classes/LOGlobals.h; sourceTree = "<group>"; };
+		3D32A9064BAC46B3C046FF2710EF9D67 /* LOLuaInteger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOLuaInteger.h; path = LuaOC/Classes/LOLuaInteger.h; sourceTree = "<group>"; };
+		480299A2B5A98F2333363D45682982A6 /* Pods-LuaOC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuaOC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		48E372A4022892458201E4E4848CFE4C /* Pods-LuaOC_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuaOC_Tests-resources.sh"; sourceTree = "<group>"; };
+		4CC52E0080DD5547FFDC8AB73C14B8BB /* LOLuaClosure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOLuaClosure.m; path = LuaOC/Classes/LOLuaClosure.m; sourceTree = "<group>"; };
+		5CB8159AE5A81CB7B9F353BBF0AD047E /* libPods-LuaOC_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LuaOC_Tests.a"; path = "libPods-LuaOC_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F7BE80EE5017FA19A86A868A2BC3D0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		687E58DDC2A2335E63735FC71CA2F881 /* LOGlobals.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOGlobals.m; path = LuaOC/Classes/LOGlobals.m; sourceTree = "<group>"; };
+		6E20EE30525F93D400B484E3768C6489 /* LOLuaThread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOLuaThread.h; path = LuaOC/Classes/LOLuaThread.h; sourceTree = "<group>"; };
+		6E5B9E962B60BBA523F7935A21867926 /* LuaOC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LuaOC-dummy.m"; sourceTree = "<group>"; };
+		72C9B8E33EA50CE18D1A9935DEA0D038 /* Pods-LuaOC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuaOC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7BA322D1ECEE83FE3B7F3DD35A924497 /* LuaOC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LuaOC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7C8E8CBE3D857A2E208A5886C2520F95 /* Pods-LuaOC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuaOC_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7C9226092FB8BDBEA2003606B0A9F984 /* Pods-LuaOC_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuaOC_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7CAF4FBE7F463EB2A59E495713746EEF /* Pods-LuaOC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuaOC_Example-frameworks.sh"; sourceTree = "<group>"; };
+		84BB52FE990F5D0E427C15BCA402CFD5 /* Pods-LuaOC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuaOC_Example-dummy.m"; sourceTree = "<group>"; };
+		87D0166B7C107741BFAF61812823D6EE /* LOLuaNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOLuaNumber.m; path = LuaOC/Classes/LOLuaNumber.m; sourceTree = "<group>"; };
+		8A582F5D67D9F95E46DC2C5FE7A3D5B9 /* LuaOC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LuaOC-prefix.pch"; sourceTree = "<group>"; };
+		8C1438D5A142D9910099CE1953D9A0C7 /* LOLuaNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOLuaNil.m; path = LuaOC/Classes/LOLuaNil.m; sourceTree = "<group>"; };
+		9018386D31C951B72E0A2FD3686F998A /* LOLuaNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOLuaNil.h; path = LuaOC/Classes/LOLuaNil.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		940E012BF1D2C8B76B66E6866995C296 /* LOLuaValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOLuaValue.m; path = LuaOC/Classes/LOLuaValue.m; sourceTree = "<group>"; };
+		97531DC0BE857901F4AB73B23920BDD6 /* LuaOC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LuaOC.xcconfig; sourceTree = "<group>"; };
+		9849C7E773BABA98DD7080B62E4A4978 /* Pods-LuaOC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuaOC_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9BEC32E251C11A7AB3B528AAB0EE45B3 /* libPods-LuaOC_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LuaOC_Example.a"; path = "libPods-LuaOC_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A054EE5E24BC8A584F1FD596E2B99E9D /* LOLuaThread.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOLuaThread.m; path = LuaOC/Classes/LOLuaThread.m; sourceTree = "<group>"; };
+		A19BA4BFDE0F69E9F0BCF0A02CA6134F /* LOLuaClosure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOLuaClosure.h; path = LuaOC/Classes/LOLuaClosure.h; sourceTree = "<group>"; };
+		A5EB75E43D2B6B0C00467F2ED7D5C754 /* LOLuaFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOLuaFunction.m; path = LuaOC/Classes/LOLuaFunction.m; sourceTree = "<group>"; };
+		AC91ED82911D6F875600BA521E9252B7 /* LOLuaNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOLuaNumber.h; path = LuaOC/Classes/LOLuaNumber.h; sourceTree = "<group>"; };
+		ACC5CC837E060C721FDBF61086AD18AB /* LOLuaFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOLuaFunction.h; path = LuaOC/Classes/LOLuaFunction.h; sourceTree = "<group>"; };
+		ADB9104C6325FF0F7923AE01BDF2F594 /* LOVarargs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOVarargs.m; path = LuaOC/Classes/LOVarargs.m; sourceTree = "<group>"; };
+		B27B1B7924B67E5DF8AD3FB592939860 /* LOLuaString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOLuaString.h; path = LuaOC/Classes/LOLuaString.h; sourceTree = "<group>"; };
+		B5AA421F1993BC0B7FC3C31AD02028D1 /* Pods-LuaOC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuaOC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B7438F58F21D99451736F69566B42F8A /* Pods-LuaOC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuaOC_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BE0A268CB1D38D0B6BCECEDE00E8DC1B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C9C876A81F81F9E96018A3B2BD8F10BA /* LOLuaValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOLuaValue.h; path = LuaOC/Classes/LOLuaValue.h; sourceTree = "<group>"; };
+		CA7B930DA8B912CD8C6C14823F4CF2FB /* Pods-LuaOC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuaOC_Tests-dummy.m"; sourceTree = "<group>"; };
+		CC32773A3DD2F29351694B44AD45D59C /* LOLuaTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOLuaTable.h; path = LuaOC/Classes/LOLuaTable.h; sourceTree = "<group>"; };
+		CDDA7CA6FB2B3186BB00B14A5B656404 /* LOLuaError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOLuaError.h; path = LuaOC/Classes/LOLuaError.h; sourceTree = "<group>"; };
+		CECD080D6CDF2DC1C288D465D78C239F /* LOLuaString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOLuaString.m; path = LuaOC/Classes/LOLuaString.m; sourceTree = "<group>"; };
+		D16E3CFA604555A968449A73A38FCF2E /* LOSubVarargs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOSubVarargs.h; path = LuaOC/Classes/LOSubVarargs.h; sourceTree = "<group>"; };
+		EC42F599569E3878B2FA2D265FA74945 /* LOSubVarargs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOSubVarargs.m; path = LuaOC/Classes/LOSubVarargs.m; sourceTree = "<group>"; };
+		F70594EF255FE61C3FE743C00FCDE51C /* LOLuaInteger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOLuaInteger.m; path = LuaOC/Classes/LOLuaInteger.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		349C54D69944E227300976309C26EFEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919FC4615C4FF1757BEBC9F46B337E7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4C8B6E61FF6EEEC447D6695ED897F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		337566ADE36D21B7D735351152507509 /* Pods-LuaOC_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B5AA421F1993BC0B7FC3C31AD02028D1 /* Pods-LuaOC_Tests-acknowledgements.markdown */,
+				3A58AC05DE66891993AAD9CB2C225B45 /* Pods-LuaOC_Tests-acknowledgements.plist */,
+				CA7B930DA8B912CD8C6C14823F4CF2FB /* Pods-LuaOC_Tests-dummy.m */,
+				7C9226092FB8BDBEA2003606B0A9F984 /* Pods-LuaOC_Tests-frameworks.sh */,
+				48E372A4022892458201E4E4848CFE4C /* Pods-LuaOC_Tests-resources.sh */,
+				25D0EC56D73F9B36E7D1B30EA04A8DCA /* Pods-LuaOC_Tests.debug.xcconfig */,
+				B7438F58F21D99451736F69566B42F8A /* Pods-LuaOC_Tests.release.xcconfig */,
+			);
+			name = "Pods-LuaOC_Tests";
+			path = "Target Support Files/Pods-LuaOC_Tests";
+			sourceTree = "<group>";
+		};
+		4F21E7E0BDF2CD56119BE411FC20A1C6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				72EB0961EAB80265919A559261DBE30D /* Pods-LuaOC_Example */,
+				337566ADE36D21B7D735351152507509 /* Pods-LuaOC_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5B14F8A3198D83D12055AA768DC1CC95 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2F02D7FC7D5858AF35050BDC4F5299C /* LuaOC */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5D540C409A9182FFCBA317A29A95BF82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				210BA566F1C22E82161A6332AD86627C /* libLuaOC.a */,
+				9BEC32E251C11A7AB3B528AAB0EE45B3 /* libPods-LuaOC_Example.a */,
+				5CB8159AE5A81CB7B9F353BBF0AD047E /* libPods-LuaOC_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EB83B7D07FA396A37CEC2D6B74CF28D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BE0A268CB1D38D0B6BCECEDE00E8DC1B /* LICENSE */,
+				7BA322D1ECEE83FE3B7F3DD35A924497 /* LuaOC.podspec */,
+				5F7BE80EE5017FA19A86A868A2BC3D0A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		72EB0961EAB80265919A559261DBE30D /* Pods-LuaOC_Example */ = {
+			isa = PBXGroup;
+			children = (
+				480299A2B5A98F2333363D45682982A6 /* Pods-LuaOC_Example-acknowledgements.markdown */,
+				72C9B8E33EA50CE18D1A9935DEA0D038 /* Pods-LuaOC_Example-acknowledgements.plist */,
+				84BB52FE990F5D0E427C15BCA402CFD5 /* Pods-LuaOC_Example-dummy.m */,
+				7CAF4FBE7F463EB2A59E495713746EEF /* Pods-LuaOC_Example-frameworks.sh */,
+				28A8E60C01E418F7AC3BA03FF417EE9A /* Pods-LuaOC_Example-resources.sh */,
+				9849C7E773BABA98DD7080B62E4A4978 /* Pods-LuaOC_Example.debug.xcconfig */,
+				7C8E8CBE3D857A2E208A5886C2520F95 /* Pods-LuaOC_Example.release.xcconfig */,
+			);
+			name = "Pods-LuaOC_Example";
+			path = "Target Support Files/Pods-LuaOC_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				5B14F8A3198D83D12055AA768DC1CC95 /* Development Pods */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				5D540C409A9182FFCBA317A29A95BF82 /* Products */,
+				4F21E7E0BDF2CD56119BE411FC20A1C6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		C2F02D7FC7D5858AF35050BDC4F5299C /* LuaOC */ = {
+			isa = PBXGroup;
+			children = (
+				3A9BCC0E21BBC3C214B09358127E6A7B /* LOGlobals.h */,
+				687E58DDC2A2335E63735FC71CA2F881 /* LOGlobals.m */,
+				A19BA4BFDE0F69E9F0BCF0A02CA6134F /* LOLuaClosure.h */,
+				4CC52E0080DD5547FFDC8AB73C14B8BB /* LOLuaClosure.m */,
+				CDDA7CA6FB2B3186BB00B14A5B656404 /* LOLuaError.h */,
+				042AFB70C00E7D5866713705E3A5C950 /* LOLuaError.m */,
+				ACC5CC837E060C721FDBF61086AD18AB /* LOLuaFunction.h */,
+				A5EB75E43D2B6B0C00467F2ED7D5C754 /* LOLuaFunction.m */,
+				3D32A9064BAC46B3C046FF2710EF9D67 /* LOLuaInteger.h */,
+				F70594EF255FE61C3FE743C00FCDE51C /* LOLuaInteger.m */,
+				9018386D31C951B72E0A2FD3686F998A /* LOLuaNil.h */,
+				8C1438D5A142D9910099CE1953D9A0C7 /* LOLuaNil.m */,
+				AC91ED82911D6F875600BA521E9252B7 /* LOLuaNumber.h */,
+				87D0166B7C107741BFAF61812823D6EE /* LOLuaNumber.m */,
+				B27B1B7924B67E5DF8AD3FB592939860 /* LOLuaString.h */,
+				CECD080D6CDF2DC1C288D465D78C239F /* LOLuaString.m */,
+				CC32773A3DD2F29351694B44AD45D59C /* LOLuaTable.h */,
+				33669795E6F1C8FA816BF6C75443B41F /* LOLuaTable.m */,
+				6E20EE30525F93D400B484E3768C6489 /* LOLuaThread.h */,
+				A054EE5E24BC8A584F1FD596E2B99E9D /* LOLuaThread.m */,
+				C9C876A81F81F9E96018A3B2BD8F10BA /* LOLuaValue.h */,
+				940E012BF1D2C8B76B66E6866995C296 /* LOLuaValue.m */,
+				D16E3CFA604555A968449A73A38FCF2E /* LOSubVarargs.h */,
+				EC42F599569E3878B2FA2D265FA74945 /* LOSubVarargs.m */,
+				25FD6A1F14035241903EF6A106C38210 /* LOVarargs.h */,
+				ADB9104C6325FF0F7923AE01BDF2F594 /* LOVarargs.m */,
+				5EB83B7D07FA396A37CEC2D6B74CF28D /* Pod */,
+				E3C305572651E3E80BB90333D4E00F14 /* Support Files */,
+			);
+			name = LuaOC;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E3C305572651E3E80BB90333D4E00F14 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97531DC0BE857901F4AB73B23920BDD6 /* LuaOC.xcconfig */,
+				6E5B9E962B60BBA523F7935A21867926 /* LuaOC-dummy.m */,
+				8A582F5D67D9F95E46DC2C5FE7A3D5B9 /* LuaOC-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LuaOC";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E434E535CA56F70B840FAC603818FCF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00999EBBFE2DD9E868F86EBCE0589281 /* LOGlobals.h in Headers */,
+				7F04ADD4717723CCF6B628288E5DCF02 /* LOLuaClosure.h in Headers */,
+				B98240DEBF5BB23EE70D7703D7575DF4 /* LOLuaError.h in Headers */,
+				B77D7419183B7E90274E30F4F260CF68 /* LOLuaFunction.h in Headers */,
+				0D8297B8B60C28CC83843E6C126CD7FF /* LOLuaInteger.h in Headers */,
+				CE3C16255FA6342B15DA79912AC7D3F5 /* LOLuaNil.h in Headers */,
+				B20713437B7958145755D1FA6EA1E4F6 /* LOLuaNumber.h in Headers */,
+				27C1B96FDCA8A426F36F14FE362757D7 /* LOLuaString.h in Headers */,
+				20A37F51A5CCB19629A26ECA847D90BA /* LOLuaTable.h in Headers */,
+				D2CFAA4B5BC6BA4248DFFC65793010A1 /* LOLuaThread.h in Headers */,
+				40CDC53652E99A71E083812E90CC5CFC /* LOLuaValue.h in Headers */,
+				E40403FE4437086877CBC42C0317561F /* LOSubVarargs.h in Headers */,
+				AA0ED565D50063CA1B01552C39FE7D72 /* LOVarargs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A88D1C82A6E3084697F64057892FE7A /* Pods-LuaOC_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 382318F7CF43AD7A5C452164FA49A317 /* Build configuration list for PBXNativeTarget "Pods-LuaOC_Tests" */;
+			buildPhases = (
+				2B587269567534E45EB9C3D2BC10C78E /* Sources */,
+				349C54D69944E227300976309C26EFEB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LuaOC_Tests";
+			productName = "Pods-LuaOC_Tests";
+			productReference = 5CB8159AE5A81CB7B9F353BBF0AD047E /* libPods-LuaOC_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		68212261B5A549F926625032CEF31A10 /* Pods-LuaOC_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B827FE111AD5E0FF9AF4E7EEEF2F1C3 /* Build configuration list for PBXNativeTarget "Pods-LuaOC_Example" */;
+			buildPhases = (
+				482C66CBB4596B17908ADC4401F12683 /* Sources */,
+				919FC4615C4FF1757BEBC9F46B337E7F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF760C56D52219E49F53465E292386B0 /* PBXTargetDependency */,
+			);
+			name = "Pods-LuaOC_Example";
+			productName = "Pods-LuaOC_Example";
+			productReference = 9BEC32E251C11A7AB3B528AAB0EE45B3 /* libPods-LuaOC_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		88867127CE37D5EC125F7D4B3EA9A5CB /* LuaOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657734ADBFFDD1E1F4D02BE5F265DDD2 /* Build configuration list for PBXNativeTarget "LuaOC" */;
+			buildPhases = (
+				8F4A5AFCAB2C4FF4484EA865D8D0BADA /* Sources */,
+				FA4C8B6E61FF6EEEC447D6695ED897F5 /* Frameworks */,
+				3E434E535CA56F70B840FAC603818FCF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuaOC;
+			productName = LuaOC;
+			productReference = 210BA566F1C22E82161A6332AD86627C /* libLuaOC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5D540C409A9182FFCBA317A29A95BF82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88867127CE37D5EC125F7D4B3EA9A5CB /* LuaOC */,
+				68212261B5A549F926625032CEF31A10 /* Pods-LuaOC_Example */,
+				4A88D1C82A6E3084697F64057892FE7A /* Pods-LuaOC_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B587269567534E45EB9C3D2BC10C78E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9F637F34AAF0252F310ED263BD88F9 /* Pods-LuaOC_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		482C66CBB4596B17908ADC4401F12683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E598B8C52C6A993BEF1A4E7F8A246AC /* Pods-LuaOC_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F4A5AFCAB2C4FF4484EA865D8D0BADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40239CF303F76B11A3A82059F53E1B44 /* LOGlobals.m in Sources */,
+				0E1E204B163DC1C1E8EBA056315DE3D8 /* LOLuaClosure.m in Sources */,
+				6BF88CE9A53DD576762CCC7957056C7A /* LOLuaError.m in Sources */,
+				D7BA8753ACF843F92C2C1790E5A779F6 /* LOLuaFunction.m in Sources */,
+				678A9FBA5A8EAD2008060FA731AE8D7C /* LOLuaInteger.m in Sources */,
+				50AA9B949E990229D62038368D70ADBF /* LOLuaNil.m in Sources */,
+				A0DA7B174F3968505BFD8BC892592378 /* LOLuaNumber.m in Sources */,
+				0A20DA0A10B67DA241140995BECF691D /* LOLuaString.m in Sources */,
+				65DBDFE377AA7BC5A674CD1ABA4A256D /* LOLuaTable.m in Sources */,
+				70D07CF60AE3850843D47F22D72A85C5 /* LOLuaThread.m in Sources */,
+				AB152A85FDA36AFE1A6EB56C8C34823A /* LOLuaValue.m in Sources */,
+				E528638092F76A252ADB1DE6E047F948 /* LOSubVarargs.m in Sources */,
+				37CCC5AB0C2CF5A4CC8A26F9E76FDD12 /* LOVarargs.m in Sources */,
+				6376BB05AEE9AB9B900E20B3CD5CDF26 /* LuaOC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF760C56D52219E49F53465E292386B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LuaOC;
+			target = 88867127CE37D5EC125F7D4B3EA9A5CB /* LuaOC */;
+			targetProxy = B61E4C9A4331C7E8BE99F9534E9B82BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2F3CF606C7B1E169FE37346B191E898B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97531DC0BE857901F4AB73B23920BDD6 /* LuaOC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LuaOC/LuaOC-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LuaOC;
+				PRODUCT_NAME = LuaOC;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F9232376662D3B9F96A7DB27725C382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97531DC0BE857901F4AB73B23920BDD6 /* LuaOC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LuaOC/LuaOC-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LuaOC;
+				PRODUCT_NAME = LuaOC;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8051694DBE7C85440DD0DFFF00B7BBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D0EC56D73F9B36E7D1B30EA04A8DCA /* Pods-LuaOC_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		881D0E22CAFB84142A52C52C18F0A0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7438F58F21D99451736F69566B42F8A /* Pods-LuaOC_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95428066CF06560AD738F2867EF8875C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9849C7E773BABA98DD7080B62E4A4978 /* Pods-LuaOC_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		978D223CCCFD88BF827C9093214FCDDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C8E8CBE3D857A2E208A5886C2520F95 /* Pods-LuaOC_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		382318F7CF43AD7A5C452164FA49A317 /* Build configuration list for PBXNativeTarget "Pods-LuaOC_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8051694DBE7C85440DD0DFFF00B7BBEC /* Debug */,
+				881D0E22CAFB84142A52C52C18F0A0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B827FE111AD5E0FF9AF4E7EEEF2F1C3 /* Build configuration list for PBXNativeTarget "Pods-LuaOC_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95428066CF06560AD738F2867EF8875C /* Debug */,
+				978D223CCCFD88BF827C9093214FCDDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657734ADBFFDD1E1F4D02BE5F265DDD2 /* Build configuration list for PBXNativeTarget "LuaOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9232376662D3B9F96A7DB27725C382 /* Debug */,
+				2F3CF606C7B1E169FE37346B191E898B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

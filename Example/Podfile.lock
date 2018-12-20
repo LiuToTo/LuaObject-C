@@ -1,0 +1,16 @@
+PODS:
+  - LuaOC (0.1.0)
+
+DEPENDENCIES:
+  - LuaOC (from `../`)
+
+EXTERNAL SOURCES:
+  LuaOC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LuaOC: 0b28ab7bcba6b6a6e6091232233fa7e620c6c3f1
+
+PODFILE CHECKSUM: e8ceeaf34c1586e6d1551f43e8396a259ba18d7d
+
+COCOAPODS: 1.5.3
